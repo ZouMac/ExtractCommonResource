@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2023392249535E00C1CF14 /* a1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2023372249535E00C1CF14 /* a1.png */; };
+		1B20233A2249535E00C1CF14 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2023382249535E00C1CF14 /* a.png */; };
+		1B2023412249659100C1CF14 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2023402249659100C1CF14 /* Info.plist */; };
+		1B2023492249661100C1CF14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2023482249661100C1CF14 /* main.m */; };
+		1B20234D2249661A00C1CF14 /* UIImage+compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20233C2249560500C1CF14 /* UIImage+compare.m */; };
 		639F830520E478AA009363F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F830420E478AA009363F9 /* AppDelegate.m */; };
 		639F830820E478AA009363F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F830720E478AA009363F9 /* ViewController.m */; };
 		639F830A20E478AC009363F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639F830920E478AC009363F9 /* Assets.xcassets */; };
@@ -14,7 +19,26 @@
 		639F831020E478AC009363F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F830F20E478AC009363F9 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B2023442249661100C1CF14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B2023372249535E00C1CF14 /* a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a1.png; sourceTree = "<group>"; };
+		1B2023382249535E00C1CF14 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		1B20233B2249560500C1CF14 /* UIImage+compare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+compare.h"; sourceTree = "<group>"; };
+		1B20233C2249560500C1CF14 /* UIImage+compare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+compare.m"; sourceTree = "<group>"; };
+		1B2023402249659100C1CF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2023462249661100C1CF14 /* NSImageCompare */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSImageCompare; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2023482249661100C1CF14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		639F830020E478AA009363F9 /* ExtractCommonResource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtractCommonResource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639F830320E478AA009363F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		639F830420E478AA009363F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -22,12 +46,18 @@
 		639F830720E478AA009363F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		639F830920E478AC009363F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639F830C20E478AC009363F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		639F830E20E478AC009363F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		639F830F20E478AC009363F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		639F831120E478AC009363F9 /* ExtractCommonResource.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExtractCommonResource.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B2023432249661100C1CF14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		639F82FD20E478AA009363F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +68,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2023472249661100C1CF14 /* NSImageCompare */ = {
+			isa = PBXGroup;
+			children = (
+				1B2023382249535E00C1CF14 /* a.png */,
+				1B2023372249535E00C1CF14 /* a1.png */,
+				1B20233B2249560500C1CF14 /* UIImage+compare.h */,
+				1B20233C2249560500C1CF14 /* UIImage+compare.m */,
+				1B2023482249661100C1CF14 /* main.m */,
+			);
+			path = NSImageCompare;
+			sourceTree = "<group>";
+		};
 		639F82F720E478AA009363F9 = {
 			isa = PBXGroup;
 			children = (
 				639F830220E478AA009363F9 /* ExtractCommonResource */,
+				1B2023472249661100C1CF14 /* NSImageCompare */,
 				639F830120E478AA009363F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				639F830020E478AA009363F9 /* ExtractCommonResource.app */,
+				1B2023462249661100C1CF14 /* NSImageCompare */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +105,9 @@
 				639F830420E478AA009363F9 /* AppDelegate.m */,
 				639F830620E478AA009363F9 /* ViewController.h */,
 				639F830720E478AA009363F9 /* ViewController.m */,
+				1B2023402249659100C1CF14 /* Info.plist */,
 				639F830920E478AC009363F9 /* Assets.xcassets */,
 				639F830B20E478AC009363F9 /* Main.storyboard */,
-				639F830E20E478AC009363F9 /* Info.plist */,
 				639F830F20E478AC009363F9 /* main.m */,
 				639F831120E478AC009363F9 /* ExtractCommonResource.entitlements */,
 			);
@@ -73,6 +117,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1B2023452249661100C1CF14 /* NSImageCompare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B20234A2249661100C1CF14 /* Build configuration list for PBXNativeTarget "NSImageCompare" */;
+			buildPhases = (
+				1B2023422249661100C1CF14 /* Sources */,
+				1B2023432249661100C1CF14 /* Frameworks */,
+				1B2023442249661100C1CF14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSImageCompare;
+			productName = NSImageCompare;
+			productReference = 1B2023462249661100C1CF14 /* NSImageCompare */;
+			productType = "com.apple.product-type.tool";
+		};
 		639F82FF20E478AA009363F9 /* ExtractCommonResource */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 639F831420E478AC009363F9 /* Build configuration list for PBXNativeTarget "ExtractCommonResource" */;
@@ -99,6 +160,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = ND;
 				TargetAttributes = {
+					1B2023452249661100C1CF14 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					639F82FF20E478AA009363F9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -118,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				639F82FF20E478AA009363F9 /* ExtractCommonResource */,
+				1B2023452249661100C1CF14 /* NSImageCompare */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				639F830A20E478AC009363F9 /* Assets.xcassets in Resources */,
+				1B20233A2249535E00C1CF14 /* a.png in Resources */,
+				1B2023392249535E00C1CF14 /* a1.png in Resources */,
+				1B2023412249659100C1CF14 /* Info.plist in Resources */,
 				639F830D20E478AC009363F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +203,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B2023422249661100C1CF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2023492249661100C1CF14 /* main.m in Sources */,
+				1B20234D2249661A00C1CF14 /* UIImage+compare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		639F82FC20E478AA009363F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +236,29 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1B20234B2249661100C1CF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ786Y9SWT;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B20234C2249661100C1CF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ786Y9SWT;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		639F831220E478AC009363F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -276,7 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LJ786Y9SWT;
-				INFOPLIST_FILE = ExtractCommonResource/Info.plist;
+				INFOPLIST_FILE = "/Users/zoutan/Downloads/ExtractCommonResource-master/ExtractCommonResource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -294,7 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LJ786Y9SWT;
-				INFOPLIST_FILE = ExtractCommonResource/Info.plist;
+				INFOPLIST_FILE = "/Users/zoutan/Downloads/ExtractCommonResource-master/ExtractCommonResource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -307,6 +407,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B20234A2249661100C1CF14 /* Build configuration list for PBXNativeTarget "NSImageCompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B20234B2249661100C1CF14 /* Debug */,
+				1B20234C2249661100C1CF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		639F82FB20E478AA009363F9 /* Build configuration list for PBXProject "ExtractCommonResource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
